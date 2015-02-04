@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
         
         mTextView = (TextView) findViewById(R.id.textView1);
         mButton = (Button) findViewById(R.id.button1);
-        mEditText = (EditText) findViewById(R.id.editText1);
+        mEditText = (EditText) findViewById(R.id.editText);
         
         mSharedPreferences = PreferenceManager
 				.getDefaultSharedPreferences(getApplicationContext()
@@ -47,6 +47,9 @@ public class MainActivity extends Activity {
 				editor.putString(skey, mEditText.getText().toString());
 				editor.commit();
 				Log.d("setOnClickListener","click");
+                // volvemos a buscar del archivo de preferencias.
+                String text = mSharedPreferences.getString(skey, "default");
+                mTextView.setText(text);
 			}
 		});
         

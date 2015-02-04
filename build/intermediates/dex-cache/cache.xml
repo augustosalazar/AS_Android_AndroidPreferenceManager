@@ -9,6 +9,13 @@
         <dex dex="/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-233bf102c9d164e6e15608b58970dbe21bbb7168.jar" />
     </item>
     <item
+        jar="/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/pre-dexed/debug/classes-a5dc1ccc03d7bf96b63c04418f88bd534a7ff981.jar" />
+    </item>
+    <item
         jar="/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -21,13 +28,6 @@
         revision="21.1.2"
         sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
         <dex dex="/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-4e7e31c297c156c285dcc76fa8a0ef3aed1d7817.jar" />
-    </item>
-    <item
-        jar="/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
-        <dex dex="/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/pre-dexed/debug/classes-a5dc1ccc03d7bf96b63c04418f88bd534a7ff981.jar" />
     </item>
 
 </items>
