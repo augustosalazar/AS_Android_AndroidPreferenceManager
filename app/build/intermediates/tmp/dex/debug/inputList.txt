@@ -1,5 +1,5 @@
 /Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/classes/debug
-/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-4e7e31c297c156c285dcc76fa8a0ef3aed1d7817.jar
-/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-233bf102c9d164e6e15608b58970dbe21bbb7168.jar
-/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/pre-dexed/debug/classes-777cfc23485ba54e252d619ae3aebeec125e9678.jar
-/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/pre-dexed/debug/classes-a5dc1ccc03d7bf96b63c04418f88bd534a7ff981.jar
+/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-765e2eb2621e2e17160699a9270d5c4b99db6035.jar
+/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-749fdfff9e633ea205b8b51f9c7ff70adefb5d8b.jar
+/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/pre-dexed/debug/classes-b6d54dbeac15dcc443c5954bea52c13fe653fbf1.jar
+/Users/administrador/AndroidStudioProjects/AndroidPreferenceManager/app/build/intermediates/pre-dexed/debug/classes-1fad653b38cd4fa16fa82a8e5b7961b135d7cee4.jar

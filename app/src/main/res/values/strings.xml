@@ -5,5 +5,6 @@
     <string name="textoBotonAlmacenar">Almanecenar nuevo valor</string>
     <string name="textoExplicación">En este demo primero vamos a ver el valor por defecto de la variable de sistema. Cuando el mismo sea moficado y la aplicación se reinicie se mostrara el nuevo valor.</string>
     <string name="textoTitulo">Preference Manager Demo</string>
+    <string name="action_settings">Configuración</string>
 
 </resources>
