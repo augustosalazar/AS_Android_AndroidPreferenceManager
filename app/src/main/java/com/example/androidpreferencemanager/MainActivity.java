@@ -17,7 +17,7 @@ import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity {
 	protected SharedPreferences mSharedPreferences;
-	protected String skey = "PREF_CHECKBOX_STRING";
+	protected String skey = "keyParametroTexto";
 	protected TextView mTextView;
 	protected EditText mEditText;
 	protected Button mButton;
@@ -36,7 +36,7 @@ public class MainActivity extends ActionBarActivity {
         mSharedPreferences = PreferenceManager
 				.getDefaultSharedPreferences(getApplicationContext()
 						.getApplicationContext());
-        String text = mSharedPreferences.getString(skey, "default");
+        String text = mSharedPreferences.getString(skey, "default Value");
         
         mTextView.setText(text);
         
@@ -51,11 +51,24 @@ public class MainActivity extends ActionBarActivity {
 				editor.commit();
 				Log.d("setOnClickListener","click");
                 // volvemos a buscar del archivo de preferencias.
-                String text = mSharedPreferences.getString(skey, "default");
+                String text = mSharedPreferences.getString(skey, "default Value");
                 mTextView.setText(text);
 			}
 		});
         
+    }
+
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        SharedPreferences sharedPreferences = PreferenceManager
+                .getDefaultSharedPreferences(mMainActivity.getApplicationContext());
+
+        // volvemos a buscar del archivo de preferencias.
+        String text = mSharedPreferences.getString(skey, "default Value");
+        mTextView.setText(text);
     }
 
     @Override

@@ -6,12 +6,12 @@
         android:fragment="com.example.androidpreferencemanager.SettingsActivity$GeneralPreferenceFragment"
         android:title="@string/pref_header_general" />
 
-    <header
+<!--    <header
         android:fragment="com.example.androidpreferencemanager.SettingsActivity$NotificationPreferenceFragment"
         android:title="@string/pref_header_notifications" />
 
     <header
         android:fragment="com.example.androidpreferencemanager.SettingsActivity$DataSyncPreferenceFragment"
-        android:title="@string/pref_header_data_sync" />
+        android:title="@string/pref_header_data_sync" />-->
 
 </preference-headers>
