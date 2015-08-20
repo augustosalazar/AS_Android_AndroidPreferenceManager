@@ -34,8 +34,7 @@ public class MainActivity extends ActionBarActivity {
         mEditText = (EditText) findViewById(R.id.editText);
         
         mSharedPreferences = PreferenceManager
-				.getDefaultSharedPreferences(getApplicationContext()
-						.getApplicationContext());
+				.getDefaultSharedPreferences(getApplicationContext());
         String text = mSharedPreferences.getString(skey, "default Value");
         
         mTextView.setText(text);
@@ -45,7 +44,7 @@ public class MainActivity extends ActionBarActivity {
 			@Override
 			public void onClick(View arg0) {
 				SharedPreferences sharedPreferences = PreferenceManager
-						.getDefaultSharedPreferences(mMainActivity.getApplicationContext());
+						.getDefaultSharedPreferences(getApplicationContext());
 				Editor editor = sharedPreferences.edit();
 				editor.putString(skey, mEditText.getText().toString());
 				editor.commit();
@@ -64,7 +63,7 @@ public class MainActivity extends ActionBarActivity {
         super.onResume();
 
         SharedPreferences sharedPreferences = PreferenceManager
-                .getDefaultSharedPreferences(mMainActivity.getApplicationContext());
+                .getDefaultSharedPreferences(getApplicationContext());
 
         // volvemos a buscar del archivo de preferencias.
         String text = mSharedPreferences.getString(skey, "default Value");
