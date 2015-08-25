@@ -43,9 +43,7 @@ public class MainActivity extends ActionBarActivity {
 			
 			@Override
 			public void onClick(View arg0) {
-				SharedPreferences sharedPreferences = PreferenceManager
-						.getDefaultSharedPreferences(getApplicationContext());
-				Editor editor = sharedPreferences.edit();
+				Editor editor = mSharedPreferences.edit();
 				editor.putString(skey, mEditText.getText().toString());
 				editor.commit();
 				Log.d("setOnClickListener","click");
@@ -61,10 +59,6 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onResume() {
         super.onResume();
-
-        SharedPreferences sharedPreferences = PreferenceManager
-                .getDefaultSharedPreferences(getApplicationContext());
-
         // volvemos a buscar del archivo de preferencias.
         String text = mSharedPreferences.getString(skey, "default Value");
         mTextView.setText(text);
